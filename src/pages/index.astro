@@ -1,0 +1,40 @@
+---
+import Layout from "../layouts/Layout.astro"
+import Badge from "../components/Badge.astro"
+import LinkedIn from  "../components/icons/LinkedIn.astro"
+import Skills from  "../components/Skills.astro"
+import GitHub from  "../components/icons/GitHub.astro"
+import Email from  "../components/icons/Email.astro"
+---
+
+<Layout title="Portafolio">
+	<main>
+		<section class="w-full mx-auto lg:w-[740px] py-44">
+		<h1 class="text-white text-5xl font-bold flex flex-row gap-x-4 pb-10">
+			Soy Christian Olivares
+			<a href="https://www.linkedin.com/in/christian-alexander-olivares-amador-a22a4897/" 
+			target="_blank"
+			rel="noopener"
+			class=" flex justify-center items-center">
+			<Badge>Disponible para trabajar</Badge>
+			</a>
+		</h1>
+		<h2 class="text-2xl opacity-80 text-wrap">Ingeniero de redes y Software con experiencia en desarrollador web jr- Product Operations Analyst, de CDMX, Mexico. </h2>
+
+		<nav class="flex gap-x-4 mt-5">
+			 <Skills href="https://www.linkedin.com/in/christian-alexander-olivares-amador-a22a4897/">
+					<LinkedIn class="w-6 h-6" />
+					LinkedIn
+				</Skills>
+				<Skills href="https://github.com/SimulationCartridge">
+					<GitHub class="w-6 h-6" />
+					GitHub
+				</Skills>
+				<Skills href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ifkv=ASKXGp01s0FTRgvA6-d83qj0VVtoWu33amv7A3OEkG9f3YQX5WanpPR5t8lFFZGMfqg8fkNmnmKp7w&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1157273641%3A1706763127328266&theme=glif">
+					<Email class="w-6 h-6" />
+					calexanderolivaresa@gmail.com
+				</Skills>
+			</nav>
+	</section>
+	</main>
+</Layout>
